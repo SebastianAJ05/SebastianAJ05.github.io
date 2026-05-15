@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>DevSebas</title>
+
+    <!-- Icono -->
+    <link rel="icon" type="image/x-icon" href="assets/logoico.ico" />
+
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Portfolio personal de Sebastián Alcoholado Jiménez, desarrollador web."
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta property="og:title" />
+    <meta property="og:description" />
+    <meta property="og:image" />
+  </head>
+
+  <body>
+    <!-- ================================================= -->
+    <!-- BACKGROUND EFFECTS -->
+    <!-- ================================================= -->
+
+    <div class="bg-blur blur-1"></div>
+    <div class="bg-blur blur-2"></div>
+
+    <!-- ================================================= -->
+    <!-- HEADER -->
+    <!-- ================================================= -->
+
+    <header class="header">
+      <div class="container header-content">
+        <!-- Logo / Nombre -->
+
+        <a href="#" class="logo">
+          <img src="assets/logo.png" alt="SAJ Logo" />
+        </a>
+
+        <nav class="navbar">
+          <a href="#projects"> Proyectos </a>
+
+          <a href="#experience"> Experiencia </a>
+
+          <a href="#skills"> Skills </a>
+        </nav>
+
+        <!-- Redes -->
+
+        <div class="social-icons">
+          <a
+            href="https://github.com/SebastianAJ05"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <img src="assets/img/contactos/github.png" alt="GitHub" />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/sebasti%C3%A1n-alcoholado-jim%C3%A9nez-501441350/"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-linkedin"
+              aria-hidden="true"
+            >
+              <path
+                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+              ></path>
+              <rect width="4" height="12" x="2" y="9"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+
+          <a href="mailto:sajimenez.dev@gmail.com" aria-label="Email">
+            <img src="assets/img/contactos/mail.png" alt="Email" />
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- ================================================= -->
+    <!-- MAIN -->
+    <!-- ================================================= -->
+
+    <main>
+      <!-- ================================================= -->
+      <!-- HERO -->
+      <!-- ================================================= -->
+
+      <section class="hero">
+        <div class="container hero-content">
+          <span class="hero-badge">
+            Desarrollador Web Full Stack Jr en constante aprendizaje y
+            crecimiento.
+          </span>
+
+          <h1 class="hero-title">¡Hola! Soy Sebastián Alcoholado</h1>
+
+          <p class="hero-description">
+            ¡Hola! Soy un amante de la tecnología, graduado en desarrollo web,
+            apasionado por crear interfaces modernas, atractivas y dinámicas.
+            Disfruto transformando ideas creativas en experiencias digitales
+            reales mediante código limpio, legible y eficiente.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="primary-btn"> Ver proyectos </a>
+
+            <a href="#experience" class="secondary-btn"> Experiencia </a>
+
+            <a href="#skills" class="secondary-btn"> Skills </a>
+
+            <a
+              href="assets/Sebastián_Alcoholado_CV.pdf"
+              target="_blank"
+              class="primary-btn"
+            >
+              Descargar CV
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================================================= -->
+      <!-- PROJECTS -->
+      <!-- ================================================= -->
+
+      <section id="projects" class="projects">
+        <div class="container">
+          <div class="section-heading">
+            <span class="section-label"> Portfolio </span>
+
+            <h2>Proyectos destacados</h2>
+          </div>
+
+          <!-- ====================== -->
+          <!-- PROYECTO DESTACADO -->
+          <!-- ====================== -->
+
+          <article class="featured-project">
+            <!-- VIDEO -->
+
+            <div class="featured-project-video">
+              <img
+                src="assets/img/projects/itinerum_map.png"
+                alt="Itinerum"
+                class="modal-image"
+              />
+            </div>
+
+            <!-- INFO -->
+
+            <div class="featured-project-content">
+              <span class="project-type"> Proyecto Destacado </span>
+
+              <h3>Itinerum</h3>
+
+              <p>
+                Itinerum es una aplicación web que permite crear y gestionar
+                itinerarios personalizados en Málaga sobre un mapa interactivo,
+                utilizando la API de Google Maps para mostrar puntos de interés
+                de forma visual. Cada parada del recorrido se añade directamente
+                en el mapa y se acompaña de tarjetas con imágenes, descripciones
+                y detalles prácticos, para que planificar un viaje se sienta
+                como construir una ruta visual y no como rellenar un formulario.
+                Además, los usuarios pueden guardar y consultar sus itinerarios
+                cuando quieran, revisando fotos y puntos marcados como si
+                navegaran por su propio mapa de viajes.
+              </p>
+
+              <div class="project-stack">
+                <span>PHP</span>
+                <span>MySQL</span>
+                <span>JavaScript</span>
+              </div>
+
+              <div class="project-links">
+                <a
+                  href="https://github.com/carmoyma/Itinerum-TFG"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ====================== -->
+          <!-- GRID PROYECTOS -->
+          <!-- ====================== -->
+
+          <div class="projects-grid">
+            <!-- PROJECT -->
+
+            <article class="project-row reverse">
+              <div class="project-preview">
+                <video autoplay muted loop playsinline controls>
+                  <source
+                    src="assets/videos/El_casino_de_la_noche.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+
+              <div class="project-details">
+                <h3>El casino de la noche</h3>
+
+                <p>
+                  Un casino creado para implementar jerarquía MVC en PHP Vanilla
+                  y lanzar fetch con eventos JS.
+                </p>
+
+                <div class="project-stack">
+                  <span>JS</span>
+                  <span>PHP</span>
+                  <span>MySQL</span>
+                  <span>MVC</span>
+                </div>
+
+                <div class="project-links">
+                  <a
+                    href="https://github.com/SebastianAJ05/casino"
+                    target="_blank"
+                  >
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- PROJECT -->
+
+            <article class="project-row">
+              <div class="project-preview">
+                <img
+                  src="assets/img/projects/el_paraiso.jpg"
+                  class="modal-image"
+                  alt="El paraíso"
+                />
+              </div>
+
+              <div class="project-details">
+                <h3>El paraíso</h3>
+
+                <p>
+                  Nació como un trabajo de subida de nota. Una experiencia
+                  point-and-click en el que el jugador recoge recursos para
+                  construir edificios y completar su ciudad. ¡Te recomiendo
+                  probarlo en vista móvil!
+                </p>
+
+                <div class="project-stack">
+                  <span>HTML5</span>
+                  <span>CSS3</span>
+                  <span>JavaScript</span>
+                </div>
+
+                <div class="project-links">
+                  <a href="/El_paraiso/index.html" target="_blank"> Demo </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- PROJECT -->
+
+            <article class="project-row">
+              <div class="project-preview">
+                <img
+                  src="assets/img/projects/casa_don_diego.jpg"
+                  alt="Casa Don Diego"
+                  class="modal-image"
+                />
+              </div>
+
+              <div class="project-details">
+                <h3>Casa Don Diego</h3>
+
+                <p>
+                  Aplicación Web para realizar reservas de alojamiento en la
+                  Casa Don Diego (Ardales, Málaga). <br />
+                  Cuenta con 3 idiomas (español, inglés y holandés)
+                </p>
+
+                <div class="project-stack">
+                  <span>PHP</span>
+                  <span>Make</span>
+                </div>
+
+                <div class="project-links">
+                  <a href="https://casadondiegoardales.es/" target="_blank">
+                    Échale un vistazo
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================================================= -->
+      <!-- EXPERIENCE -->
+      <!-- ================================================= -->
+
+      <section class="experience" id="experience">
+        <div class="container">
+          <div class="section-heading">
+            <span class="section-label"> Trayectoria </span>
+
+            <h2>Experiencia</h2>
+          </div>
+
+          <div class="timeline">
+            <!-- ITEM -->
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+
+              <div class="timeline-content">
+                <span class="timeline-date"> 2026 </span>
+
+                <h3>Viewnext</h3>
+                <img
+                  src="assets/img/empresas/logo-viewnext.jpg"
+                  alt="Viewnext"
+                />
+                <p>
+                  Quality Engineer en el proyecto GISS, realizando pruebas
+                  automatizadas con Selenium y Robot Framework. También pruebas
+                  manuales con ALM.
+                </p>
+              </div>
+            </div>
+
+            <!-- ITEM -->
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+
+              <div class="timeline-content">
+                <span class="timeline-date"> 2025 </span>
+
+                <h3>Tienda CPU</h3>
+                <img
+                  src="assets/img/empresas/logo-tiendacpu.jpg"
+                  alt="Tienda CPU"
+                />
+
+                <p>
+                  Procesos de automatización y mantenimiento del sitio web con
+                  Make y PrestaShop 8.1.6
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================================================= -->
+      <!-- SKILLS -->
+      <!-- ================================================= -->
+
+      <section class="skills" id="skills">
+        <div class="container">
+          <div class="section-heading">
+            <span class="section-label"> Stack </span>
+
+            <h2>Lenguajes y herramientas</h2>
+          </div>
+
+          <div class="skills-grid">
+            <!-- SKILL -->
+
+            <div class="skill-card">
+              <img src="assets/img/herramientas/html5.svg" alt="HTML" />
+            </div>
+
+            <!-- SKILL -->
+
+            <div class="skill-card">
+              <img src="assets/img/herramientas/css3.svg" alt="CSS" />
+            </div>
+
+            <!-- SKILL -->
+
+            <div class="skill-card">
+              <img src="assets/img/herramientas/js.svg" alt="JavaScript" />
+            </div>
+
+            <!-- SKILL -->
+
+            <div class="skill-card">
+              <img
+                src="assets/img/herramientas/Typescript.svg"
+                alt="TypeScript"
+              />
+            </div>
+
+            <!-- SKILL -->
+
+            <div class="skill-card">
+              <img src="assets/img/herramientas/react.svg" alt="React" />
+            </div>
+
+            <!-- SKILL -->
+
+            <div class="skill-card">
+              <img src="assets/img/herramientas/git.svg" alt="Git" />
+            </div>
+
+            <!-- SKILL -->
+
+            <div class="skill-card">
+              <img src="assets/img/contactos/github.png" alt="GitHub" />
+            </div>
+
+            <!-- SKILL -->
+
+            <div class="skill-card">
+              <img
+                src="assets/img/herramientas/robotframework.svg"
+                alt="Robot Framework"
+              />
+            </div>
+
+            <!-- SKILL -->
+
+            <div class="skill-card">
+              <img src="assets/img/herramientas/php.svg" alt="PHP" />
+            </div>
+
+            <!-- SKILL -->
+
+            <div class="skill-card">
+              <img src="assets/img/herramientas/make.svg" alt="Make" />
+            </div>
+
+            <!-- SKILL -->
+
+            <div class="skill-card">
+              <img
+                src="assets/img/herramientas/bootstrap.svg"
+                alt="Bootstrap"
+              />
+            </div>
+
+            <!-- SKILL -->
+
+            <div class="skill-card">
+              <img src="assets/img/herramientas/java.svg" alt="Java" />
+            </div>
+
+            <!-- SKILL -->
+
+            <div class="skill-card">
+              <img src="assets/img/herramientas/python.svg" alt="Python" />
+            </div>
+
+            <!-- SKILL -->
+
+            <div class="skill-card">
+              <img src="assets/img/herramientas/mysql.svg" alt="MySQL" />
+            </div>
+
+            <!-- SKILL -->
+
+            <div class="skill-card">
+              <img src="assets/img/herramientas/oracle.svg" alt="Oracle" />
+            </div>
+
+            <!-- SKILL -->
+
+            <div class="skill-card">
+              <img src="assets/img/herramientas/laravel.svg" alt="Laravel" />
+            </div>
+
+            <!-- SKILL -->
+
+            <div class="skill-card">
+              <img
+                src="assets/img/herramientas/Postgresql.svg"
+                alt="PostgreSQL"
+              />
+            </div>
+
+            <!-- SKILL -->
+
+            <div class="skill-card">
+              <img src="assets/img/herramientas/mongodb.svg" alt="MongoDB" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================================================= -->
+    </main>
+
+    <!-- ================================================= -->
+    <!-- FOOTER -->
+    <!-- ================================================= -->
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-brand">
+          <img src="assets/logo.png" alt="SAJ Logo" />
+
+          <p>
+            © 2026 Sebastián Alcoholado Jiménez. Todos los derechos reservados.
+          </p>
+        </div>
+
+        <div class="footer-socials">
+          <a href="https://github.com/SebastianAJ05" target="_blank">
+            GitHub
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/sebasti%C3%A1n-alcoholado-jim%C3%A9nez-501441350/"
+            target="_blank"
+          >
+            LinkedIn
+          </a>
+
+          <a href="mailto:sajimenez.dev@gmail.com"> Email </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ================================================= -->
+    <!-- JAVASCRIPT -->
+    <!-- ================================================= -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
